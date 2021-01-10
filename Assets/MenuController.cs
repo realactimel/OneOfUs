@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class MenuController : MonoBehaviour
 {
     [SerializeField] private string VersioName = "DevBuild-0.1";
-    [SerializeField] private GameObject Usernamewindow;
+    [SerializeField] private GameObject UsernameCanvas;
     [SerializeField] private GameObject ConnectPanel;
 
     [SerializeField] private InputField UsernameInput;
@@ -23,7 +23,7 @@ public class MenuController : MonoBehaviour
 
     private void Start()
     {
-        Usernamewindow.SetActive(true);
+        UsernameCanvas.SetActive(true);
     }
 
     private void OnConnectedToMaster()
@@ -46,7 +46,7 @@ public class MenuController : MonoBehaviour
 
     public void SetUserName()
     {
-        Usernamewindow.SetActive(false);
+        UsernameCanvas.SetActive(false);
         PhotonNetwork.playerName = UsernameInput.text;
     }
 
