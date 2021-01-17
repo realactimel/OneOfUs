@@ -207,6 +207,7 @@ GameObject:
   - component: {fileID: 309048931}
   - component: {fileID: 309048930}
   - component: {fileID: 309048929}
+  - component: {fileID: 309048932}
   m_Layer: 5
   m_Name: UsernameCanvas
   m_TagString: Untagged
@@ -297,6 +298,14 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!222 &309048932
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309048927}
+  m_CullTransparentMesh: 0
 --- !u!1 &369322272
 GameObject:
   m_ObjectHideFlags: 0
@@ -2328,7 +2337,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: c2d622bc4892ff441aee9289a6006707, type: 3}
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 40
     m_FontStyle: 1
     m_BestFit: 0
